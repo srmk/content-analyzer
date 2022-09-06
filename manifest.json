@@ -1,0 +1,19 @@
+{
+    "name": "Content Analyzer",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Here is the place you can get all page contents when you click the icon",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
